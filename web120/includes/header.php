@@ -23,7 +23,7 @@
        <li><a href="http://w3schools.com" target="_blank">W3 Schools</a></li>
        <li><a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a></li>
        <li><a href="https://docs.google.com/drawings/d/1jGhUcQ1KrnoEPub0_1ADTRVeJSl9ldPF83Mce4XvILQ/edit?usp=sharing">Flowchart</a></li>
-       <li><a href="fp/index.html">Final Project</a></li>
+       <li><a href="fp/template.php">Final Project</a></li>
        <li><a href="contact.php">Contact Christian</a></li>
          END NAV -->
                <li class="icon"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> </li>

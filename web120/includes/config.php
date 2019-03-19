@@ -31,7 +31,7 @@ switch(THIS_PAGE){
 $nav1['index.php'] = "Welcome";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.html'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart";
+$nav1['https://docs.google.com/drawings/d/1jGhUcQ1KrnoEPub0_1ADTRVeJSl9ldPF83Mce4XvILQ/edit'] = "Flowchart";
 $nav1['fp/index.php'] = "Final Project";
 $nav1['contact.php'] = "Contact Christian";
 
@@ -56,10 +56,6 @@ function makeLinks($linkArray)
       
     return $myReturn;    
 }
-
-
-
-
 
 
 

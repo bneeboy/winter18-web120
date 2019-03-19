@@ -1,0 +1,207 @@
+/* BIG Styles */
+
+/* GLOBAL RULES */
+
+html,body {
+    background-color: #fff;
+    padding:0;
+    margin:0;
+    color: #fff
+} 
+
+div.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:darkcyan;
+    overflow:auto;
+    border-left: solid 40px lightcyan;
+    border-right: solid 40px lightcyan;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+}
+
+h2, h3 {
+    margin:1em;
+    text-align: left;
+    font-family: Calibri, sans-serif; 
+
+}
+
+p {
+    margin:1em;
+    text-align: left;
+    text-indent: 1em;
+    font-family: Calibri, sans-serif; 
+    
+}
+
+body {
+    background-color: steelblue;
+    font-family: Calibri, sans-serif;
+    
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:gold;
+    text-decoration: underline;
+}
+
+.fullwidth {
+    width:100%
+    float: left;
+}
+
+/* COLUMN RULES */
+
+
+
+section {
+    float:left;
+    width:64%;
+    text-align: left;
+}
+
+aside {
+    float:right;
+    width: 33%;
+    text-align: left;
+    font-style: oblique;
+    font-size: .75em;
+}
+aside.seo {
+    float:right;
+    width: 33%;
+    text-align: left;
+    font-style: oblique;
+    font-size: .75em;
+    padding-top: 1em;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 2em;
+}
+
+div,gallery{
+    text-align: center;
+}
+
+
+figure {
+    display: inline-block;
+    border: 1px solid black;
+    margin: .25%;
+}
+/* EMBED RULES */
+.embed-container { 
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%;
+    text-align: center;
+} 
+
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+    
+/*HIDE AGENDA CALENDAR VIEW */
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+
+/* DESKTOP RULES */
+@media all and (max-width:1440px) {
+    
+    section {
+        width:65%;
+        float:left;
+    }
+    
+    aside {
+        width:30%;
+        float:right;
+    }
+    
+    img.tablet, img.phone {
+        display:none;
+    }
+    
+/* TABLET RULES */
+@media all and (max-width:1105px) {
+    
+    div.wrapper {
+        width:90%;
+    }
+    
+    section {
+        width:55%;
+        float:left;
+    }
+    
+    aside {
+        width:40%;
+        float:right;
+    }
+    
+    img.desktop.img, img.phone {
+        display:none;
+    }
+    
+/* CALENDAR RULES FOR PHONE */
+@media all and (max-width:1440px) {
+    /* hide month view*/
+    div.embed-container.month-view {
+        display:none;
+    }
+    /* show agenda view */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+/* PHONE RULES */
+
+@media all and (max-width:1104px) {
+    
+    div.wrapper {
+        width:90%;
+    }
+    
+    section {
+        width:55%;
+        float:left;
+    }
+    
+    aside {
+        width:40%;
+        float:right;
+    }
+    
+    img.desktop.img, img.phone {
+        display:none;
+    }
+
+
+/* END PHONE - RESPONSIVE RULES */
